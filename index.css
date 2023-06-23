@@ -1,0 +1,194 @@
+        html{
+            height: 100%;
+        }
+        
+        body{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin: 0px;
+        }
+        header{
+            height: 10vh;
+            width: 100%;
+            background-color: aqua;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            vertical-align: center;
+        }
+          
+
+        h1{
+            margin: 0px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+
+        main{
+            display: flex;
+            flex: 1;
+        }
+
+        #options{
+            display: flex;
+            width: 100%;
+            height: 115px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #cartelas{
+            width: 70%;
+            height: 100%;
+            background-color: rgb(88, 15, 15);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #cart{
+            margin: 0;
+            text-align: center;
+            height:3vh;
+            width: 70%;
+            background-color: black;
+            color: #d0a77f;
+        }
+
+        #createcard{
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-right: 50px;
+        }
+
+        #createcard label{
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        .bingo-card {
+            margin: 5px;
+            text-align: center;
+            background-color: yellow;
+          }
+
+          th{
+            width: 15px;
+            height: 15px;
+          }
+
+          .bingocard h3{
+            margin: 0px;
+          }
+
+          .bingo-card table{
+            margin: 0;
+          }
+
+        #bingo-cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+          }
+
+          hr{
+            color: black;
+            width: 100%;
+          }
+
+          .bingo-card th, .bingo-card td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 10px;
+          }
+          
+          .bingo-card .free-space {
+            background-color: black;
+          }
+
+        #createcard label{
+            text-align: center;
+        }
+
+        #sorteio{
+            width: 30%;
+            justify-content: center;
+            vertical-align: center;
+        }
+
+        .messages {
+            color: red;
+            margin-top: 10px;
+          }
+
+        #sort{
+            margin: 0;
+            text-align: center;
+            height: 3vh;
+            width: 30%;
+            background-color:#d0a77f;
+            color: black;
+        }
+
+        #play{
+            height: 125px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+        }
+
+        #play p{
+            font-weight: bold;
+            color: white;
+            font-size: 25px;
+        }
+
+        .marked{
+            background-color: blue;
+        }
+
+        #drawnNumbers{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 680px;
+            background-color: #d0a77f;
+        }
+
+        #drawnNumbers table {
+            border-collapse: collapse;
+          }
+      
+          #drawnNumbers td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border: 1px solid black;
+          }
+
+          .highlight {
+            background-color: yellow;
+          }
+
+          footer{
+            background-color: black;
+            color: white;
+            bottom: 0px;
+            justify-content: center;
+            height: 5vh;
+            width: 100% ;
+            display: flex;
+            align-items: center;
+        }
